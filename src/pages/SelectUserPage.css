@@ -1,0 +1,93 @@
+
+
+
+.select-page {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: clamp(24px, 8vh, 120px) 16px;
+  text-align: center;
+
+  background: rgb(255, 127, 127);
+}
+
+.select-card {
+  width: min(1100px, 100%);
+  padding: clamp(16px, 3vw, 28px);
+
+  background: rgb(89, 165, 42);
+  border-radius: 12px;
+}
+
+.circle-btn:hover {
+  border: 2px solid white;
+  transform: scale(1.05);
+}
+
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: clamp(12px, 2vw, 30px);
+  padding: clamp(12px, 2vw, 18px);
+
+  background: blue;
+  border-radius: 12px;
+}
+
+.profile-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.circle-btn {
+ 
+  width: clamp(90px, 18vw, 150px);
+  aspect-ratio: 1 / 1;
+
+  border-radius: 50%;
+  border: 0;
+
+  background: #1db954;
+  cursor: pointer;
+}
+
+.circle-btn.selected {
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.profile-text {
+  margin-top: 10px;
+  font-size: clamp(14px, 2vw, 18px);
+  color: red;
+  text-align: center;
+}
+
+.done {
+  margin-top: clamp(24px, 6vh, 80px);
+  width: min(280px, 90%);
+  padding: 10px 14px;
+
+  border: 0;
+  border-radius: 10px;
+
+  font-size: 17px;
+  font-weight: bold;
+
+  background: #b9b11dbb;
+  color: white;
+    transition: opacity 0.2s ease;
+
+  cursor: pointer;
+}
+
+.done:hover{
+  opacity: 0.9;
+}

@@ -1,6 +1,6 @@
 {
   "name": "song-of-week",
-  "homepage": "https://Teric-Simons.github.io/SongoftheWeek.git",
+  "homepage": "https://github.com/Teric-Simons/SongoftheWeek.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
